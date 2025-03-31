@@ -9,8 +9,8 @@ endef
 define Device/zbtlink_zbt-z8102ax
   DEVICE_VENDOR := Zbtlink
   DEVICE_MODEL := ZBT-Z8102AX
-  DEVICE_DTS := mt7981b-zbtlink-zbt-z8102ax
-  DEVICE_DTS_DIR := $(DTS_DIR)/mediatek
+  DEVICE_DTS := mt7981-spim-snand-rfb-z8102ax
+  DEVICE_DTS_DIR := ../dts
   DEVICE_PACKAGES := kmod-mt7981-firmware mt7981-wo-firmware kmod-usb3 \
 	kmod-usb-net-qmi-wwan kmod-usb-serial-option automount
   KERNEL_IN_UBI := 1
